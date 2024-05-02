@@ -1,0 +1,73 @@
+.table img {
+	max-height: 40px;
+}
+
+.units {
+	padding-bottom: 10px;
+}
+
+.view {
+	display: flex;
+}
+
+.unitImage {
+	cursor: pointer;
+}
+
+.unitInfo {
+	min-width: 300px;
+	padding-right: 10%;
+}
+
+.unitInfo img {
+	max-height: 40px;
+}
+
+.upgrades {
+	display: flex;
+}
+
+.upgradeCommon {
+	display: flex;
+	min-width: 300px;
+	padding-right: 40px;
+	flex-direction: column;
+}
+
+.upgradeRace {
+	display: flex;
+}
+
+.upgradeType {
+	display: flex;
+	padding-bottom: 5px;
+}
+
+.upgradeType img {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.upgradeType img.selected {
+	opacity: 1;
+}
+
+.spellsList {
+	display: flex;
+
+}
+
+.spells {
+	display: flex;
+	min-width: 384px;
+	padding-right: 40px;
+}
+
+.spells img {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.spells img.selected {
+	opacity: 1;
+}
